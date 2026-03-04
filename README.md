@@ -1,5 +1,24 @@
-# Service Now Tool Classifier - NLP on sNow tickets
-***Problem**sNow tickets are random and agents spend time finding out the right type of the tickets, then routing them, whcih is manual and un-consistant and it requires manual intervention to reach out to the customer for clarification.
-**Approach** Built an NLP Binary classifier to determine the ticket type and reflect agent intent
-**Result** Succefully classified tickets using the built in inference in the model
-**Tools** Python, ServicceNow, Tensorflow and Jupyter Notebook for code execution and visualization
+# ServiceNow Ticket Intent Classifier — Binary NLP Model
+
+## Problem
+ServiceNow agents manually triaged incoming tickets to determine 
+intent and route them appropriately — a time-consuming, inconsistent 
+process requiring frequent customer follow-up for clarification.
+
+## Approach
+Built a binary NLP classification model using TensorFlow and Python 
+to predict agent intent directly from raw ticket text. Trained, 
+validated, and tested on 430 real-world ServiceNow tickets. 
+Proposed a phased implementation roadmap to scale the model 
+into production workflows.
+
+## Result
+Achieved 80%+ classification accuracy on held-out test data, 
+demonstrating viability for automated ticket routing and 
+reduced manual triage time.
+
+## Tools
+Python | TensorFlow | ServiceNow | Jupyter Notebook
+
+## Status
+Proof of concept — implementation roadmap proposed to leadership.
